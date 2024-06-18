@@ -11,11 +11,14 @@ class Item (
     fun getAuthorName():String{
         return authorName
     }
-    fun getItemFormat():String{
-        return itemFormat.name
+    fun getItemFormat():ItemFormat{
+        return itemFormat
     }
-    fun getItemStatus():String{
-        return itemStatus.name
+    fun setItemStatus(itemStatus: ItemStatus){
+        this.itemStatus=itemStatus
+    }
+    fun getItemStatus():ItemStatus{
+        return itemStatus
     }
     fun getNumberOfPages():Int{
         return numberOfPages

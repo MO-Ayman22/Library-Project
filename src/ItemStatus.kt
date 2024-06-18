@@ -1,4 +1,6 @@
 enum class ItemStatus {
     Available,
-    Reserved
+    Reserved,
+    Loaned,
+    Lost
 }
